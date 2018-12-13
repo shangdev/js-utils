@@ -11,7 +11,7 @@
  */
 function firstRemove(arr) {
     if (!Array.isArray(arr)) {
-        throw new Error('expected an array');
+        throw new Error('Expected an array');
     }
 
     return arr.slice(1);
@@ -30,7 +30,7 @@ function firstRemove(arr) {
  */
 function lastRemove(arr) {
     if (!Array.isArray(arr)) {
-        throw new Error('expected an array');
+        throw new Error('Expected an array');
     }
 
     return arr.slice(0, -1);
