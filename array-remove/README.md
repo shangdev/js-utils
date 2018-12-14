@@ -1,6 +1,10 @@
 ## array-remove
 
 ```js
+remove([1, 2, 3, 4, 5, 6], [1, 3, 6]); // [2, 4, 5]
+```
+
+```js
 firstRemove([1, 2, 3, 4, 5]); // [2, 3, 4]
 firstRemove([{a: 1}, {b: 1}, {c: 1}]); // [{b: 1}, {c, 1}]
 firstRemove([true, false, [true, false]]); // [false, [true, false]]
