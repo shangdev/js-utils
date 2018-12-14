@@ -1,2 +1,3 @@
 # js-utils
-Utils for javascript
+
+Utils for javascript， ES6 syntax.
